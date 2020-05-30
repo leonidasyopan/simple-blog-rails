@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root 'posts#index'
 
   get 'about' => 'pages#about'
+
+  resources :posts
 end
 
-# Stopped at minute: 17:20
